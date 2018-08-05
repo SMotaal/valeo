@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "preserveSymlinks": true,
+    "preserveConstEnums": true,
+    "allowUnusedLabels": true,
+    "strictNullChecks": false,
+    "strictFunctionTypes": true,
+    "moduleResolution": "node",
+    "rootDir": "./src",
+    "baseUrl": "./src",
+    "paths": {
+      "*": ["*", "*/index.ts", "*/index.d.ts", "*/index.m.js", "*/index.mjs"]
+    },
+    "noEmit": true
+  },
+  "exclude": ["node_modules", "**/node_modules", "trash", "**/trash", "lib"]
+}

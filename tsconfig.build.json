@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json.schemastore.org/tsconfig",
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2018",
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "outDir": "lib/cjs",
+    "declaration": false,
+    "noEmit": false
+  },
+  "include": [
+    "src/index.ts",
+    "src/tests.spec.ts"
+  ]
+}

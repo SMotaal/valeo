@@ -1,0 +1,35 @@
+{
+  "scope": "@smotaal",
+  "name": "valeo",
+  "displayName": "valeō (alpha)",
+  "description": "Experimental bare-bones reactive programming using standard ES syntax",
+  "license": "MIT",
+  "version": "0.0.0",
+  "main": "index",
+  "module": "index.mjs",
+  "browser": "index.mjs",
+  "types": "./types/index.d.ts",
+  "bin": "./scripts/execute.mjs",
+  "builds" : {
+    "types": "--listFiles -p tsconfig.types.json",
+    "commonjs": "-p tsconfig.build.json",
+    "esm": "-p tsconfig.esm.json"
+  },
+  "scripts": {
+    "precompile": "tsc --listFiles -p tsconfig.types.json",
+    "compile": "tsc --listEmittedFiles -p tsconfig.build.json; tsc --listEmittedFiles -p tsconfig.esm.json",
+    "postcompile": "./scripts/execute.mjs rename-mjs"
+  },
+  "devDependencies": {
+    "@types/node": "*",
+    "typescript": "*",
+    "loadout": "*",
+    "chalk": "*"
+  },
+  "engines": {
+    "node": "^10.5.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
