@@ -20,6 +20,9 @@
     "compile": "tsc --listEmittedFiles -p tsconfig.build.json; tsc --listEmittedFiles -p tsconfig.esm.json",
     "postcompile": "./scripts/execute.mjs rename-mjs"
   },
+  "repository": {
+    "url": "https://github.com/SMotaal/valeo.git"
+  },
   "devDependencies": {
     "@types/node": "*",
     "typescript": "*",
