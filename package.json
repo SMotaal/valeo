@@ -4,13 +4,13 @@
   "displayName": "valeō (alpha)",
   "description": "Experimental bare-bones reactive programming using standard ES syntax",
   "license": "MIT",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "index",
   "module": "index.mjs",
   "browser": "index.mjs",
   "types": "./types/index.d.ts",
   "bin": "./scripts/execute.mjs",
-  "builds" : {
+  "builds": {
     "types": "--listFiles -p tsconfig.types.json",
     "commonjs": "-p tsconfig.build.json",
     "esm": "-p tsconfig.esm.json"
@@ -25,9 +25,9 @@
   },
   "devDependencies": {
     "@types/node": "*",
-    "typescript": "*",
+    "chalk": "*",
     "loadout": "*",
-    "chalk": "*"
+    "typescript": "*"
   },
   "engines": {
     "node": "^10.5.0"
