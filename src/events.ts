@@ -1,6 +1,4 @@
-export const isEventSource = <T, K extends string>(
-  target: EventSource<T, K> | any,
-): target is EventSource<T, K> =>
+﻿export const isEventSource = <T, K extends string>(target: EventSource<T, K> | any): target is EventSource<T, K> =>
   target &&
   typeof target === 'object' &&
   (typeof target.addEventListener === 'function' || typeof target.addListener === 'function');

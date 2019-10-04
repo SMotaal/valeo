@@ -5,6 +5,7 @@
     "target": "esnext",
     "resolveJsonModule": true,
     "forceConsistentCasingInFileNames": true,
+    "emitBOM": true,
     "allowJs": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,

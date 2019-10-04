@@ -1,4 +1,4 @@
-import {Sequence, Last} from './promises';
+﻿import {Sequence, Last} from './promises';
 
 const {setPrototypeOf, defineProperty} = Object;
 

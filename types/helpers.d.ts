@@ -1,4 +1,4 @@
-export declare const describe: (symbol: symbol) => string;
+﻿export declare const describe: (symbol: symbol) => string;
 export declare function UniqueSymbol(description: any, symbol?: symbol): symbol;
 export declare const formatObject: (object: any) => string;
 export declare const formatSymbol: (symbol: any) => string;

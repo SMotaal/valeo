@@ -1,4 +1,4 @@
-import { Sequence } from './promises';
+﻿import { Sequence } from './promises';
 export declare const append: <T>(stream: Stream<T>, ...values: T[]) => void;
 export declare const unwrap: <T>(result: Async<Partial<IteratorResult<T>>>) => Promise<T>;
 export declare class Stream<T> {

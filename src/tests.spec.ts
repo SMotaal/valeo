@@ -1,4 +1,4 @@
-import chalk from 'chalk';
+﻿import chalk from 'chalk';
 import {async, sync, cap, noop, bind} from './helpers';
 import {Deferred, Sequence, Peekable, resolve, reject, Stream} from './index';
 

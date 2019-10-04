@@ -1,4 +1,4 @@
-/// <reference types="node" />
+﻿/// <reference types="node" />
 export declare const deferred: <T>() => Deferred<T>;
 export declare class Deferred<T> {
     then: Promise<T>['then'];

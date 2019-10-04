@@ -1,4 +1,4 @@
-
+﻿
 /// Symbol Helpers ///
 
 const mappings = new Map<symbol | string, symbol | string>();
