@@ -19,6 +19,7 @@
   "scripts": {
     "precompile": "tsc --listFiles -p tsconfig.types.json",
     "compile": "tsc --listEmittedFiles -p tsconfig.build.json; tsc --listEmittedFiles -p tsconfig.esm.json",
+    "test": "node --experimental-modules ./lib/esm/tests.spec.mjs"
   },
   "repository": {
     "url": "https://github.com/SMotaal/valeo.git"
