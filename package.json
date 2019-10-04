@@ -5,6 +5,7 @@
   "description": "Experimental bare-bones reactive programming using standard ES syntax",
   "license": "MIT",
   "version": "0.0.1",
+  "type": "module",
   "main": "index",
   "module": "index.mjs",
   "browser": "index.mjs",
@@ -26,9 +27,6 @@
     "@types/node": "*",
     "chalk": "*",
     "typescript": "*"
-  },
-  "engines": {
-    "node": "^10.5.0"
   },
   "publishConfig": {
     "access": "public"
